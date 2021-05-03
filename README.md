@@ -6,16 +6,18 @@ JDBC driver for connecting to android devices and get all db information and oth
 ## Variant one:
 
 Just create jdbc connection with this driver and
-jdbc url string as `jdbc:adb://*/*`
+jdbc url string as 
+```jdbc:adb://*/*```
 
-Driver class name: `com.anyqn.adbjdbc.AdbJdbcDriver`
+Driver class name: 
+```com.anyqn.adbjdbc.AdbJdbcDriver```
 Need set Unauthorized access to datasource
 
 This type of connection will read files, packages and list of devices to tables. So, you can find database file for your application.
 
 ## Variant two:
 When you get information about device just connect with this driver and jdbc url string as:
-`jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db`
+```jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db```
 
 `SM-G973F` - your device name
 `com.anyqn.amhere` - your application package name
@@ -29,16 +31,16 @@ Parameters in jdbc url:
 `period` in ms time between reload data from device application db
 
 as example
-`jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db?applicationDataRootPath=/data/data&initialDelay=0&period=5000`
+```jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db?applicationDataRootPath=/data/data&initialDelay=0&period=5000```
 
 # Maven
-`
+```
 <dependency>
     <groupId>com.anyqn.lib</groupId>
     <artifactId>adb-jdbc-driver</artifactId>
     <version>0.1</version>
 </dependency>
-`
+```
 
 # License
 
