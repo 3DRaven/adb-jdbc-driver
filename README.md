@@ -31,3 +31,17 @@ Parameters in jdbc url:
 as example
 `jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db?applicationDataRootPath=/data/data&initialDelay=0&period=5000`
 
+# Maven
+`
+<dependency>
+    <groupId>com.anyqn.lib</groupId>
+    <artifactId>adb-jdbc-driver</artifactId>
+    <version>0.1</version>
+</dependency>
+`
+
+# License
+
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
