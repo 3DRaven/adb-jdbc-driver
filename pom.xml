@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.anyqn.lib</groupId>
 	<artifactId>adb-jdbc-driver</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>adb-jdbc-driver</name>
 
 	<description>JDBC driver for connecting to android devices and get all db information and other from debugable application</description>
@@ -29,7 +27,7 @@
 	<scm>
 		<connection>scm:git:ssh://git@github.com:3DRaven/adb-jdbc-driver.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com:3DRaven/adb-jdbc-driver.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>adb-jdbc-driver-0.1</tag>
 		<url>https://github.com/3DRaven/adb-jdbc-driver</url>
 	</scm>
 
