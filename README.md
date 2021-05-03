@@ -19,7 +19,7 @@ This type of connection will read files, packages and list of devices to tables.
 When you get information about device just connect with this driver and jdbc url string as:
 ```jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db```
 
-`SM-G973F` - your device name
+`SM-G973F` - your device name or serial
 `com.anyqn.amhere` - your application package name
 `/databases/main_database.db` - relative path to your db in application data directory
 
