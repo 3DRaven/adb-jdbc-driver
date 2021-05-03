@@ -12,7 +12,7 @@
 //import lombok.extern.slf4j.Slf4j;
 //
 //@Slf4j
-//public class Main {
+//public class MainData {
 //
 //    private static void logTable(final Connection conn, final String tablesListSql) throws SQLException {
 //        final Statement stmt = conn.createStatement();
@@ -31,18 +31,15 @@
 //
 //        new AdbSqlDriver();
 //
-//        try (Connection conn = DriverManager.getConnection(
-//                "jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db?period=1000&initialDelay=0&showAllFilesInPackage=true")) {
-//            final String tablesListSql = IOUtils.resourceToString("tables-list.sql",
-//                    Charset.defaultCharset(),
-//                    Thread.currentThread().getContextClassLoader());
-//            Thread.sleep(5000);
-//            logTable(conn, tablesListSql);
+//        final Connection conn = DriverManager.getConnection(
+//                "jdbc:adb://SM-G973F/com.anyqn.amhere/databases/main_database.db?period=1000&initialDelay=0&showAllFilesInPackage=true");
+//        final String tablesListSql = IOUtils.resourceToString("tables-list.sql",
+//                Charset.defaultCharset(),
+//                Thread.currentThread().getContextClassLoader());
+//        Thread.sleep(5000);
+//        logTable(conn, tablesListSql);
 //
-//            logTable(conn, "Select * from android_db.android_metadata");
+//        logTable(conn, "Select * from android_db.android_metadata");
 //
-//        } catch (final Exception e) {
-//            log.info("");
-//        }
 //    }
 //}

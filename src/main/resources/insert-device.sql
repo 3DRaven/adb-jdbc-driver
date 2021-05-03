@@ -1,1 +1,1 @@
-insert into adb_sql_driver_devices values(?,?,?)
+insert into devices (name,serial) values(?,?)

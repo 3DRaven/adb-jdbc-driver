@@ -1,1 +1,1 @@
-insert into adb_sql_driver_packages values(?,?,?)
+insert into packages(device,name,path) values(?,?,?)

@@ -1,1 +1,1 @@
-DELETE from adb_sql_driver_files
+DELETE from files
