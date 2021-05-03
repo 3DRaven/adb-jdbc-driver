@@ -3,6 +3,8 @@ JDBC driver for connecting to android devices and get all db information and oth
 
 # Usage:
 
+You need started adb server
+
 ## Variant one:
 
 Just create jdbc connection with this driver and
