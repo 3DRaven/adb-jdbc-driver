@@ -1,4 +1,4 @@
-package com.anyqn.adbsql.util;
+package com.anyqn.adbjdbc.util;
 
 import java.util.function.Consumer;
 

@@ -1,4 +1,4 @@
-package com.anyqn.adbsql;
+package com.anyqn.adbjdbc;
 
 import java.io.IOException;
 import java.net.URI;
@@ -20,18 +20,18 @@ import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.anyqn.adbsql.data.AdbDataConnection;
-import com.anyqn.adbsql.meta.AdbMetadataConnection;
+import com.anyqn.adbjdbc.data.AdbDataConnection;
+import com.anyqn.adbjdbc.meta.AdbMetadataConnection;
 
 import lombok.extern.slf4j.Slf4j;
 import se.vidstige.jadb.JadbConnection;
 
 @Slf4j
-public class AdbSqlDriver implements Driver {
+public class AdbJdbcDriver implements Driver {
     private static final int DB_NAME_GROUP = 2;
     private static final int PACKAGE_NAME_GROUP = 1;
     private static final String ADB = "adb";
-    private static final Driver INSTANCE = new AdbSqlDriver();
+    private static final Driver INSTANCE = new AdbJdbcDriver();
     private static boolean registered;
 
     static {
@@ -56,7 +56,7 @@ public class AdbSqlDriver implements Driver {
 
     private JadbConnection jadb;
 
-    public AdbSqlDriver() {
+    public AdbJdbcDriver() {
         log.debug("Called");
         try {
             preloadSqliteDriver();

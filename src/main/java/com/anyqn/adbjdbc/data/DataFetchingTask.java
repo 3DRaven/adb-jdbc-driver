@@ -1,4 +1,4 @@
-package com.anyqn.adbsql.data;
+package com.anyqn.adbjdbc.data;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,8 +17,8 @@ import java.util.Optional;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.anyqn.adbsql.AbstractFetchingTask;
-import com.anyqn.adbsql.ConnectionHolder;
+import com.anyqn.adbjdbc.AbstractFetchingTask;
+import com.anyqn.adbjdbc.ConnectionHolder;
 
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;

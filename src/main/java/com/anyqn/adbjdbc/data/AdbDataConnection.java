@@ -1,4 +1,4 @@
-package com.anyqn.adbsql.data;
+package com.anyqn.adbjdbc.data;
 
 import java.sql.Array;
 import java.sql.Blob;
@@ -22,9 +22,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import com.anyqn.adbsql.ConnectionHolder;
-import com.anyqn.adbsql.util.ConsumerWithException;
-import com.anyqn.adbsql.util.FunctionWithException;
+import com.anyqn.adbjdbc.ConnectionHolder;
+import com.anyqn.adbjdbc.util.ConsumerWithException;
+import com.anyqn.adbjdbc.util.FunctionWithException;
 
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;

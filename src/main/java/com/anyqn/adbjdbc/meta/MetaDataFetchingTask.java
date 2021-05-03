@@ -1,4 +1,4 @@
-package com.anyqn.adbsql.meta;
+package com.anyqn.adbjdbc.meta;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -16,7 +16,7 @@ import java.util.Optional;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.anyqn.adbsql.AbstractFetchingTask;
+import com.anyqn.adbjdbc.AbstractFetchingTask;
 
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;

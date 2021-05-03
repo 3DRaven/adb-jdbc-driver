@@ -4,12 +4,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>com.anyqn.adbsql</groupId>
-	<artifactId>AdbSqlDriver</artifactId>
+	<groupId>com.anyqn.adbjdbc</groupId>
+	<artifactId>AdbJdbcDriver</artifactId>
 	<version>0.1-SNAPSHOT</version>
 
-	<name>AdbSqlDriver</name>
+	<name>AdbJdbcDriver</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,13 +17,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter</artifactId>
-			<version>5.7.1</version>
-			<scope>test</scope>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.github.vidstige/jadb -->
 		<dependency>
 			<groupId>com.github.vidstige</groupId>
@@ -72,11 +64,7 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.12.0</version>
 		</dependency>
-
 	</dependencies>
-
-
-
 	<build>
 		<resources>
 			<resource>
@@ -125,7 +113,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.anyqn.adbsql.AdbSqlDriver</mainClass>
+							<mainClass>com.anyqn.adbjdbc.AdbJdbcDriver</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

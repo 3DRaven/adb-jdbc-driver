@@ -1,4 +1,4 @@
-package com.anyqn.adbsql.meta;
+package com.anyqn.adbjdbc.meta;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

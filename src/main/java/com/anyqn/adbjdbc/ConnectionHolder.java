@@ -1,4 +1,4 @@
-package com.anyqn.adbsql;
+package com.anyqn.adbjdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;

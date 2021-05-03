@@ -1,4 +1,4 @@
-package com.anyqn.adbsql;
+package com.anyqn.adbjdbc;
 
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RequiredArgsConstructor
-public class AdbSqlMetadata implements DatabaseMetaData {
+public class AdbJdbcMetadata implements DatabaseMetaData {
 
     @Delegate
     private final DatabaseMetaData delegate;
