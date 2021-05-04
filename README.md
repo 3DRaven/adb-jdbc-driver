@@ -46,6 +46,9 @@ as example
     <version>0.1</version>
 </dependency>
 ```
+# Testing
+
+Only on my Samsung S10 now, but I will test this driver on pair of other devices. You are welcome to enjoy to testing :)
 
 # License
 
