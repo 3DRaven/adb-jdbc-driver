@@ -1,6 +1,7 @@
 # AdbJdbcDriver
 JDBC driver for connecting to android devices and get all db information and other from debugable application
-
+This driver shoud be used as Android Studio "Database Inspector" functionality for Visual Studio code and other IDEs.
+You can use prefered sql connection plugin in any IDE and connect by this driver to your device.
 # Usage:
 
 You need started adb server
